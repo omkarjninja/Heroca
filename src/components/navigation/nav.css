@@ -1,0 +1,107 @@
+@import url(https://fonts.bunny.net/css?family=aclonica:400);
+@import url('https://fonts.cdnfonts.com/css/cremotic');
+.whole-nav{
+  border: 2px solid red;
+}
+  /* .open-navbar-icon {
+    position: fixed;
+    top: 2.5rem;
+    left: 6.5rem;
+    z-index: 200;
+    border: 2px solid red;
+  } */
+/* open-navbar-icon {
+    position: fixed;
+    top: 2.5rem;
+    left: 6.5rem;
+    z-index: 200;
+    border: 2px solid red;
+  } */
+
+
+
+  .navbar-icon .line {
+    height: 0.2rem;
+    width: 2.5rem;
+    position: relative;
+    left: 0.65rem;
+    top: 0.85rem;
+    background-color: #F39F5A;
+  }
+  
+  .open-navbar-icon .line {
+    margin: 0.3rem 0;
+  }
+  .show{
+    opacity: 1;
+  }
+  .hide{
+    opacity: 0;
+  }
+  .navy{
+    margin-left: 5%;
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    top: 0rem;
+    left: 0.5rem;
+    width: 90%;
+    justify-content: space-between;
+  }
+.logo{
+  font-family: 'Aclonica', sans-serif;
+  cursor: pointer;
+}
+.git{
+  font-family: 'Cremotic', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+.close-drawer{
+  background: transparent;
+  border: 0px solid white;
+  font-size: 80px;
+  position: absolute;
+  left: 90%;
+}
+
+@media (max-width: 1400px){
+    
+}
+@media (max-width: 1200px){
+
+}
+@media (max-width: 1000px){
+    
+}
+@media (max-width: 800px){
+  .close-drawer{
+    font-size: 70px;
+    position: absolute;
+    left: 80%;
+  }
+}
+@media (max-width: 600px){
+  .close-drawer{
+    font-size: 60px;
+    position: absolute;
+    left: 80%;
+  }
+}
+@media (max-width: 400px){
+  .close-drawer{
+    font-size: 60px;
+    position: absolute;
+    left: 80%;
+  }
+}
+@media (max-width: 200px){
+  .close-drawer{
+    background: transparent;
+    border: 0px solid white;
+    font-size: 60px;
+    position: absolute;
+    left: 80%;
+  }
+}

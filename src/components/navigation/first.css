@@ -1,0 +1,62 @@
+@import url(https://fonts.bunny.net/css?family=aclonica:400);
+*{
+    margin: 0%;
+}
+.Title{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 20vw;
+    text-align: center;
+    margin-top: 10vh;
+    font-weight: 300;
+}
+.front-image{
+    width: 80%;
+    margin-left: 20%
+}
+.big-image{
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 20px;
+}
+@media (max-width: 1400px){
+    .front-image{
+        width: 90%;
+        margin-left: 10%
+    }
+}
+@media (max-width: 1200px){
+    .front-image{
+        width: 95%;
+        margin-left: 5%
+    }
+}
+@media (max-width: 1000px){
+    .front-image{
+        width: 95%;
+        margin-left: 5%
+    }
+}
+@media (max-width: 800px){
+    .front-image{
+        width: 100%;
+        margin-left: 0%
+    }
+}
+@media (max-width: 600px){
+    .front-image{
+        width: 100%;
+        margin-left: 0%
+    }
+}
+@media (max-width: 400px){
+    .front-image{
+        width: 100%;
+        margin-left: 0%
+    }
+}
+@media (max-width: 200px){
+    .front-image{
+        width: 100%;
+        margin-left: 0%
+    }
+}
